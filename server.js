@@ -19,4 +19,4 @@ app.get('/about', (req, res) => {
 });
 
 
-app.listen(3000, () => console.log(`Escuchando peticiones en el puerto ${port}`));
+app.listen(port, () => console.log(`Escuchando peticiones en el puerto ${port}`));
